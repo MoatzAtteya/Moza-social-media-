@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutAnimation="@anim/scale_up_layout"
+    android:id="@+id/chat_item_layout">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/chat_profile_iv"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_3sdp"
+        android:src="@drawable/group_icon"
+        app:civ_border="true"
+        app:civ_border_color_end="@color/sec_btns_color"
+        app:civ_border_color_start="#CAADF6"
+        app:civ_border_width="@dimen/_1sdp"
+        app:civ_shadow="true"
+        app:civ_shadow_color="@color/primary_text"
+        app:civ_shadow_radius="@dimen/_1sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/chat_username_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_3sdp"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintStart_toEndOf="@+id/chat_profile_iv"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/username" />
+
+    <TextView
+        android:id="@+id/chat_delete_request_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:textSize="@dimen/_10sdp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:text="( Delete request )"
+        android:textColor="@color/secondary_text"
+        app:layout_constraintStart_toEndOf="@+id/chat_username_tv"
+        app:layout_constraintEnd_toStartOf="@+id/chat_time_tv"
+        app:layout_constraintTop_toTopOf="parent"
+         />
+
+    <TextView
+        android:id="@+id/chat_time_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:textColor="@color/main_btns_color"
+        android:textSize="@dimen/_8sdp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Now"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/messages_counter_cv"
+        android:layout_width="@dimen/_25sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:layout_marginEnd="@dimen/_7sdp"
+        android:elevation="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_30sdp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chat_time_tv">
+
+        <TextView
+            android:id="@+id/messages_counter_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/main_btns_color"
+            tools:text="12"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <ImageView
+        android:id="@+id/group_deleted_message_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_not_interested_24"
+        android:layout_marginEnd="@dimen/_4sdp"
+        android:textColor="@color/secondary_text"
+        app:layout_constraintStart_toEndOf="@+id/chat_profile_iv"
+        app:layout_constraintTop_toBottomOf="@+id/chat_username_tv"
+        android:visibility="gone"
+        app:tint="@color/light_gray" />
+
+    <TextView
+        android:id="@+id/chat_last_message_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_3sdp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_marginEnd="@dimen/_4sdp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/secondary_text"
+        android:textSize="@dimen/_13sdp"
+        app:layout_constraintEnd_toStartOf="@+id/messages_counter_cv"
+        app:layout_constraintStart_toEndOf="@+id/group_deleted_message_iv"
+        app:layout_constraintTop_toBottomOf="@+id/chat_username_tv"
+        tools:text="chat content" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

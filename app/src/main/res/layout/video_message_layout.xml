@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_3sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <TextView
+        android:id="@+id/new_message_date_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20/9/2019"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/right_message_item_video_cv"
+        android:layout_width="@dimen/_110sdp"
+        android:layout_height="@dimen/_150sdp"
+        app:cardCornerRadius="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_message_date_tv"
+        android:visibility="visible"
+        >
+
+        <ImageView
+            android:id="@+id/right_message_item_image_iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:src="@drawable/login_image"
+            />
+
+        <ImageView
+            android:id="@+id/right_message_play_item_image_iv"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:src="@drawable/ic_baseline_play_circle_outline_24"
+            />
+
+        <ProgressBar
+            android:id="@+id/right_progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_12sdp"
+            android:visibility="gone"
+            android:indeterminateTint="@color/main_btns_color"
+            android:layout_gravity="center"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/right_react_cv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_2sdp"
+        android:elevation="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_30sdp"
+        android:visibility="gone"
+        android:layout_marginEnd="-20dp"
+        android:layout_marginTop="@dimen/_15sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/right_message_item_video_cv">
+        <ImageView
+            android:id="@+id/right_react_iv"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            tools:src="@drawable/sad_emoji"
+            android:elevation="@dimen/_5sdp"
+            android:layout_gravity="center"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/sender_image_iv"
+        android:layout_width="@dimen/_25sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:src="@drawable/profile_pic" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/left_message_item_video_cv"
+        android:layout_width="@dimen/_110sdp"
+        android:layout_height="@dimen/_150sdp"
+        app:cardCornerRadius="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_3sdp"
+        app:layout_constraintStart_toEndOf="@+id/sender_image_iv"
+        app:layout_constraintTop_toBottomOf="@+id/new_message_date_tv"
+        android:visibility="gone"
+        >
+
+        <ImageView
+            android:id="@+id/left_message_item_image_iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:src="@drawable/login_image"
+            />
+
+        <ImageView
+            android:id="@+id/left_message_play_item_image_iv"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:src="@drawable/ic_baseline_play_circle_outline_24"
+            />
+
+        <ProgressBar
+            android:id="@+id/left_progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_12sdp"
+            android:visibility="gone"
+            android:indeterminateTint="@color/main_btns_color"
+            android:layout_gravity="center"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/left_react_cv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_2sdp"
+        app:cardCornerRadius="@dimen/_30sdp"
+        android:layout_marginStart="-30dp"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/_15sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/left_message_item_video_cv">
+        <ImageView
+            android:id="@+id/left_react_iv"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            tools:src="@drawable/sad_emoji"
+            android:layout_gravity="center"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

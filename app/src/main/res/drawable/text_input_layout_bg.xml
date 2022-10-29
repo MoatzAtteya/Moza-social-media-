@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Gray shadow. -->
+
+    <!-- White foreground. -->
+    <item android:bottom="5dp" android:right="3dp">
+        <shape>
+            <solid android:color="@color/text_input_layout_bg" />
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+</layer-list>

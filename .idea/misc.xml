@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/MVVMNewsApp/caches/transforms-3/2d1b9f301c3aabdf2ff87f673a96f245/transformed/jetified-android-video-trimmer-1.7.3/res/drawable-anydpi-v24/ic_launcher_foreground.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable-v24/ic_send.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable-v24/send-40px.xml" value="0.1275" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable-v24/send_40px.xml" value="0.1275" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/batman_left_message_bg.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/batman_message_bg.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/batman_right_message_bg.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/btn_shape_purple.xml" value="0.1275" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/btns_shape.xml" value="0.1275" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/btns_shape_purple.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/btns_shape_purple_shadow.xml" value="0.1275" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/btns_shape_transparent.xml" value="0.1275" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/btns_shapeeee.xml" value="0.1275" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/comment_et_background.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/counter_bg.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/doctor_strange_left_msg_bg.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/doctor_strange_message_bg.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/doctor_strange_right_msg_bg.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/favorite_48px.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/ic_baseline_message_24.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/ic_baseline_navigate_next_24.xml" value="0.1275" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/ic_circle.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/ic_circle_background.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/ic_launcher_background.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/jotaro_left_message_bg.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/jotaro_message_bg.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/jotaro_right_message_bg.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/left_message_bg.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/message_bg.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/outlined_gray_search_bg.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/outlined_rounded_corner_et.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/right_message_item.xml" value="0.136" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/rounded_transparent_btns.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/rounded_view.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/send_24px.xml" value="0.1275" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/spiderman_left_message_bg.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/spiderman_message_bg.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/spiderman_right_message_bg.xml" value="0.141" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/splash_screen_logo.xml" value="0.1275" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/drawable/text_input_layout_bg.xml" value="0.1275" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout-v28/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout-v28/activity_register.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/activity_add_story.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/activity_fragment_replace.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/activity_home.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/activity_home2.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/activity_video.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/activity_video_call.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/activity_view_story.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/add_post_images_item.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/batman_message_bg.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/bottom_nav_view_layout.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/chat_item.xml" value="0.2" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/comment_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/fragment_add_post.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/fragment_chat.xml" value="0.264" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/fragment_chat_setting.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/fragment_comment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/fragment_confirm_post.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/fragment_create_account.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/fragment_edit_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/fragment_edit_sensetive.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/fragment_forgot_password.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/fragment_hidden_messages.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/fragment_hidden_msg_auth.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/fragment_home.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/fragment_image_viewer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/fragment_likes.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/fragment_login.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/fragment_massages.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/fragment_search.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/fragment_video_call.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/fragment_view_user_post.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/fragment_welcome.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/home_pists_item.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/home_posts_item.xml" value="0.264" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/message_edit_dialog.xml" value="0.253125" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/message_item.xml" value="0.264" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/message_option_bottom_sheet.xml" value="0.2" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/message_options_bottom_sheet.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/notification_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/profile_images_item.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/profile_search_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/story_item.xml" value="0.536" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/story_view_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/story_views_bottom_sheet.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/layout/theme_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moatz/AndroidStudioProjects/Moza/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

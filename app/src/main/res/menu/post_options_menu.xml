@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/save_post_option"
+        android:icon="@drawable/bookmark_icon"
+        android:title="Save" />
+
+    <item
+        android:id="@+id/hide_post_option"
+        android:icon="@drawable/ic_baseline_visibility_off_24"
+        android:title="Hide" />
+</menu>

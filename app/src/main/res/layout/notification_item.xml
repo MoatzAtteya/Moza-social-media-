@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_7sdp"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/notification_user_iv"
+        android:layout_width="@dimen/_45sdp"
+        android:layout_height="@dimen/_45sdp"
+        app:civ_border="false"
+        app:civ_border_color="?colorSecondary"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/notification_username_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:lineHeight="@dimen/_20sdp"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/_10sdp"
+        app:layout_constraintEnd_toStartOf="@+id/notification_post_iv"
+        app:layout_constraintStart_toEndOf="@+id/notification_user_iv"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="username started following " />
+
+    <TextView
+        android:id="@+id/notification_time_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="yesterday"
+        android:textColor="@color/secondary_text"
+        android:textSize="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:layout_constraintStart_toEndOf="@+id/notification_user_iv"
+        app:layout_constraintTop_toBottomOf="@id/notification_username_tv"/>
+
+
+    <ImageView
+        android:id="@+id/notification_post_iv"
+        android:layout_width="@dimen/_45sdp"
+        android:layout_height="@dimen/_45sdp"
+        tools:src="@drawable/batman_chat_bg"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    android:padding="@dimen/_20sdp">
+
+    <View
+        android:id="@+id/message_options_line"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_6sdp"
+
+        android:background="@drawable/rounded_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressbar" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:backgroundTint="@color/white"
+        android:elevation="@dimen/_2sdp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/main_btns_color"
+        android:max="100"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:layout_constraintTop_toBottomOf="@+id/message_options_line"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+
+    <LinearLayout
+        android:id="@+id/send_document_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/send_document_cv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_13sdp"
+            android:backgroundTint="@color/purple"
+            android:elevation="@dimen/_10sdp"
+            app:cardCornerRadius="@dimen/_30sdp"
+
+            >
+
+            <ImageView
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_gravity="center"
+                android:padding="@dimen/_10sdp"
+                android:elevation="@dimen/_10sdp"
+                android:foreground="?selectableItemBackground"
+                android:src="@drawable/outline_description_white_48"
+                android:visibility="visible"
+                 />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Document"
+            android:textStyle="bold"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:textSize="@dimen/_11sdp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/send_video_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/_40sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/send_document_layout">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_13sdp"
+            android:backgroundTint="@color/orange"
+            android:elevation="@dimen/_10sdp"
+            app:cardCornerRadius="@dimen/_30sdp"
+            >
+
+            <ImageView
+                android:id="@+id/send_video_cv"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_gravity="center"
+                android:elevation="@dimen/_10sdp"
+                android:foreground="?selectableItemBackground"
+                android:padding="@dimen/_10sdp"
+                android:src="@drawable/outline_movie_black_48"
+                android:visibility="visible"
+                app:tint="@color/white" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_4sdp"
+            android:text="Video"
+            android:textSize="@dimen/_11sdp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/send_photo_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/_40sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/send_video_layout">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/send_photo_cv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_13sdp"
+            android:backgroundTint="@color/pink"
+            android:elevation="@dimen/_10sdp"
+            app:cardCornerRadius="@dimen/_30sdp">
+
+            <ImageView
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_gravity="center"
+                android:elevation="@dimen/_10sdp"
+                android:foreground="?selectableItemBackground"
+                android:padding="@dimen/_10sdp"
+                android:src="@drawable/outline_collections_white_48"
+                android:visibility="visible"
+                 />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Gallery"
+            android:textStyle="bold"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:textSize="@dimen/_11sdp" />
+
+    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

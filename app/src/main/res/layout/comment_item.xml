@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/all_comment_item_profilePic"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        tools:src="@color/main_btns_color"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/all_comment_item_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@string/username"
+        android:textSize="@dimen/_13sdp"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/_5sdp"
+        app:layout_constraintStart_toEndOf="@+id/all_comment_item_profilePic"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/all_comment_item_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@string/status"
+        android:textSize="@dimen/_11sdp"
+        android:maxLines="3"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        app:layout_constraintStart_toEndOf="@+id/all_comment_item_profilePic"
+        app:layout_constraintTop_toBottomOf="@+id/all_comment_item_username" />
+
+    <ImageView
+        android:id="@+id/all_comment_item_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@tools:sample/date/day_of_week"
+        android:textSize="@dimen/_9sdp"
+        android:src="@drawable/outline_delete_black_24"
+        android:maxLines="1"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone"
+        app:tint="?colorSecondary" />
+
+    <TextView
+        android:id="@+id/all_comment_item_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@tools:sample/date/day_of_week"
+        android:textSize="@dimen/_9sdp"
+        android:maxLines="1"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/all_comment_item_username" />
+
+    <ImageView
+        android:id="@+id/delete_comment_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:foreground="?selectableItemBackground"
+        android:src="@drawable/trash_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

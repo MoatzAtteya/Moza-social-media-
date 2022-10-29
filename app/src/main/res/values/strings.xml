@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Moza</string>
+    <string name="conditions_terms_text">By creating an account, you are agree to our terms and conditions and agree to privacy policy</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="webClient_id">564319213795-6ok5crgdvd8r9jacno8cnd9s7cq1f0iu.apps.googleusercontent.com</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="add_something_about_your_post_here">Add something about your post here.</string>
+    <string name="add_post">Add post</string>
+    <string name="your_post_will_be_shown_like_that">Your post will be shown like that</string>
+    <string name="username">username</string>
+    <string name="likes">likes</string>
+    <string name="status">status</string>
+    <string name="add_story">Add Story</string>
+    <string name="messages">Messages</string>
+    <string name="say_hi">Say HI</string>
+    <string name="password_info_text">Your password must be at least 6 characters and should include a combination of numbers, letters and special characters (!$@%).</string>
+    <string name="forget_password_hint">If you forgot your password</string>
+    <string name="title_activity_video_call">VideoCallActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="deleted_message">Deleted Message</string>
+    <string name="private_profile_info">You need to follow this account to see his photos and stories.</string>
+    <string name="private_profile_title">This Account is private.</string>
+    <string name="edit">Edit</string>
+    <string name="exit_group">Exit Group</string>
+    <string name="theme">Theme</string>
+    <string name="view">View</string>
+    <string name="members">Members</string>
+    <string name="chat_setting">Chat setting</string>
+    <string name="hidden_chat_info">You can hide any conversation by swiping it from to right.</string>
+    <string name="hidden_messages">Hidden Messages</string>
+</resources>
