@@ -34,7 +34,44 @@
 <img src="Screenshots/settings.png" >
 <img src="Screenshots/story.png" >
 
-# technologies & Open-source libraries
+# How to install:
+* Download the project and connect it to your firebase.
+* It would be better if your project is (Blaze plan) because the project uses functions and you need to upload this code.
+```
+const functions = require("firebase-functions");
+const admin = require('firebase-admin');
+admin.initializeApp(functions.config().firestore);
+exports.scheduledFunction = functions.pubsub.schedule('every 30 minutes').onRun((context) => {
+    // current time in miilis
+    const timeMillis = admin.firestore.Timestamp.now().toMillis();
+    console.log(timeMillis);
+    admin.firestore().collection('Stories').where('expiryDate', '<=', timeMillis).get()
+        .then((snapshot) => {
+            snapshot.docs.forEach((data) => {
+                console.log("Name: " + data.get('username'));
+                console.log("ID: " + data.get('id'));
+                console.log("UID: " + data.get('uid'));
+                admin.firestore().collection('Stories').doc(data.id).delete();
+            });
+        }).catch((error) => {
+            console.log("Error: " + error);
+        });
+
+    return null;
+});
+exports.onStoryUpload = functions.firestore.document('Stories/{storyID}')
+    .onCreate((snapshot, context) => {
+        var data = snapshot.data();
+        const timeMillis = admin.firestore.Timestamp.now().toMillis();
+        const expiryDate = timeMillis + (24 * 60 * 60 * 1000);
+        admin.firestore().collection('Stories').doc(data.id).update({
+            "expiryDate": expiryDate,
+        });
+    });
+```
+* If your plan is spark the project will work fine **except that the users stories will be always available not only for 24 hours**.
+
+# Technologies & Open-source libraries
 * Kotlin mainly, Coroutines together with Flow.
 
 * Firebase mainly used in this project:
@@ -42,6 +79,7 @@
 	* Firestore
 	* Storage
 	* FCM
+	* Functions
 * Dependency injection (Dagger Hilt).
 * Retrofit A type-safe HTTP client.
 * [SDP](https://github.com/intuit/sdp) to support different screen sizes.
