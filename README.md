@@ -34,6 +34,11 @@
 <img src="Screenshots/settings.png" >
 <img src="Screenshots/story.png" >
 
+# How to install:
+* Download the project and connect it to your firebase.
+* It would be better if your project is (Blaze plan) because the project uses functions and you need to upload this code.
+* If your plan is spark the project will work fine **except that the users stories will be always available not only for 24 hours**.
+
 # Technologies & Open-source libraries
 * Kotlin mainly, Coroutines together with Flow.
 
@@ -42,6 +47,7 @@
 	* Firestore
 	* Storage
 	* FCM
+	* Functions
 * Dependency injection (Dagger Hilt).
 * Retrofit A type-safe HTTP client.
 * [SDP](https://github.com/intuit/sdp) to support different screen sizes.
