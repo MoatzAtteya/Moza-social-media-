@@ -34,7 +34,7 @@
 <img src="Screenshots/settings.png" >
 <img src="Screenshots/story.png" >
 
-# technologies & Open-source libraries
+# Technologies & Open-source libraries
 * Kotlin mainly, Coroutines together with Flow.
 
 * Firebase mainly used in this project:
