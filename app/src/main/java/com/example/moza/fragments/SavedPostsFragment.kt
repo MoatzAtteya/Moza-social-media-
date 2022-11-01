@@ -127,6 +127,10 @@ class SavedPostsFragment : Fragment() {
                 )
             }
 
+            override fun onViewLikesClick(position: Int, post: PostImage) {
+                TODO("Not yet implemented")
+            }
+
             override fun onCommentClick(
                 position: Int,
                 id: String,
