@@ -1,41 +1,33 @@
 {
   "project_info": {
-    "project_number": "564319213795",
-    "project_id": "moza-3aea9",
-    "storage_bucket": "moza-3aea9.appspot.com"
+    "project_number": "943780075191",
+    "project_id": "moza-new",
+    "storage_bucket": "moza-new.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:564319213795:android:3addb1461639afb9f34dd6",
+        "mobilesdk_app_id": "1:943780075191:android:cfe32c7ac2d27f71fa1f32",
         "android_client_info": {
           "package_name": "com.example.moza"
         }
       },
       "oauth_client": [
         {
-          "client_id": "564319213795-ic514kecpqc30vv4re7855ekdv1oil2a.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.moza",
-            "certificate_hash": "db6a3a358428ee3ba8e4e8ef084763421257f1fb"
-          }
-        },
-        {
-          "client_id": "564319213795-6ok5crgdvd8r9jacno8cnd9s7cq1f0iu.apps.googleusercontent.com",
+          "client_id": "943780075191-apcro0plnfgpmsueskgsc8f4b2ih2n4i.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBUtCxFWIy0G0mMFWbV6OyXGTvQsGEDdO0"
+          "current_key": "AIzaSyC9T2w7TdZGYwolFfSDx5T_MaVGh3i75M0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "564319213795-6ok5crgdvd8r9jacno8cnd9s7cq1f0iu.apps.googleusercontent.com",
+              "client_id": "943780075191-apcro0plnfgpmsueskgsc8f4b2ih2n4i.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

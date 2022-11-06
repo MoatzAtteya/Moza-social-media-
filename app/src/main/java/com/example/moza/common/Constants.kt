@@ -20,7 +20,7 @@ object Constants {
     const val SAD_EMOJI = "sad_react"
 
     const val BASE_URL = "https://fcm.googleapis.com"
-    const val SERVER_KEY = "AAAAg2QL2OM:APA91bEPh5idY5nmsaA__oD9uxQtVyXrA3FMvuNnlhgCyvcoNoWr8oGinhH3kV1eOpDuDW67oY3y-qGz3yQPnVhII7wUtP7rj3ktyGv10PbNb-xc8Eey-g_4mDTCkUQQfI-7YaEWVmws"
+    const val SERVER_KEY = "AAAA272tFrc:APA91bFYw8ApyS1DqM-2b7XbthFYVr55HOL98EdVmI2cQfRJvMHOOQDF4mtLhkIEk3vVOrfl3ftUN824uPFVHU-9L5Si9UvUF1doDNBEBBQ6sQMU-0J6aKmX7zDrExPwzhudJJRQMiku"
     const val CONTENT_TYPE = "application/json"
 
     const val DELETED_MESSAGE_CODE = "BWY6Y37R5QJVLZ47"
